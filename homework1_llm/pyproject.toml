@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "homework1-llm"
+version = "0.1.0"
+description = ""
+authors = ["PathornKiti <pathorn.kiti@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.4"
+notebook = "7.1.2"
+openai = "^1.35.3"
+elasticsearch = "^8.14.0"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.0"
+requests = "^2.32.3"
+tiktoken = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
