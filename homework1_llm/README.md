@@ -1,6 +1,9 @@
 ## Steps
 
-1.  `bash poetry shell`
+1.
+```shell
+poetry shell
+```
 2.  `bash poetry install`
 3.  `bash export OPENAI_API_KEY="xxx"`
 4.  open jupyter notebook
