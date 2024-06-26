@@ -1,11 +1,18 @@
 ## Steps
 
-1.
+1. Create virtual environment
 ```shell
 poetry shell
 ```
-2.  `bash poetry install`
-3.  `bash export OPENAI_API_KEY="xxx"`
+2. Install Dependencies
+```shell
+poetry install
+```
+3. Authenticate Openai
+```shell
+export OPENAI_API_KEY="xxx"
+```
+
 4.  open jupyter notebook
 5.  **Run Elasticsearch in Docker (user: elastic):**
 
