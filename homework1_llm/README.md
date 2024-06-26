@@ -3,7 +3,7 @@
 1.  `bash poetry shell`
 2.  `bash poetry install`
 3.  `bash export OPENAI_API_KEY="xxx"`
-4.  `open jupyter notebook`
+4.  open jupyter notebook
 5.  **Run Elasticsearch in Docker (user: elastic):**
 
 ```bash
